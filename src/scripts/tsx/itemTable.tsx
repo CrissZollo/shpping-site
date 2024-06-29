@@ -18,7 +18,7 @@ export default function ItemTable() {
                     {itemList.itemList.map(item => (
                         <tr key={item._id}>
                             <td>{item.name}</td>
-                            <td>{item.price}</td>
+                            <td>{item.price}$</td>
                             <td>{item.description}</td>
                             <td>-   0   +</td>
                         </tr>
