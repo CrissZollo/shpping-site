@@ -1,0 +1,17 @@
+.itemTableContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 5em;
+}
+
+.itemTableContainer table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.itemTableContainer th, td {
+    padding: 2em;
+    text-align: center;
+}

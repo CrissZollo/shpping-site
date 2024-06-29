@@ -1,4 +1,18 @@
 #navbar{
     height: 40px;
     width: 100vw;
+    display: flex;
+}
+
+#cartContainer{
+    height: 100%;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#cartAmount {
+    margin-left: 1em;
 }

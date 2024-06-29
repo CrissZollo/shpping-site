@@ -1,12 +1,17 @@
+import { Style } from "util";
 import cartIcon from "../../svg/cart.svg"
 import "../css/navbar.css"
 
+let cartAmount = 0;
 
 export default function Navbar() {
 
     return (
         <nav id="navbar">
-            <img style={{position: "relative", maxHeight: "100%", right: "0px"}} src={cartIcon} alt="Cart img" />
+            <div id="cartContainer">
+                <img  src={cartIcon} alt="Cart img" />
+                <div id="cartAmount">{cartAmount}</div>    
+            </div>
         </nav>
     )
   }

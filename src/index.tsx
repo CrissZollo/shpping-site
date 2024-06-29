@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 
 import Navbar from './scripts/tsx/navbar'
+import ItemTable from './scripts/tsx/itemTable';
 
 
 const root = ReactDOM.createRoot(
@@ -13,6 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Navbar />
+    <ItemTable />
   </React.StrictMode>
 );
 
